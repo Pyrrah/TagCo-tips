@@ -2,7 +2,7 @@
 
 1) To reload a container, create a tag "CommandersAct" with name "TC - Privacy Container Reload".
 
-2) On the dropdownn "Catégorie de Privacy", select "Ne pas inclure dans la privacy".
+2) Select "Déclencheur(s)" to "Container loaded", and on the dropdownn "Catégorie de Privacy", select "Ne pas inclure dans la privacy".
 
 3) Put the code and save :
 

@@ -6,6 +6,7 @@
 
 3) Put the code and save :
 
+```js
     <script language="javascript">
     <!--
     // Reload container code
@@ -26,3 +27,4 @@
         };
     -->
     </script>
+    ```

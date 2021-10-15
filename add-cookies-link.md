@@ -18,7 +18,7 @@ In this situation, we will add at the end of the list `<ul id="footer">` an entr
 (function() {
     try {
         if (document.querySelector('#footer ul')) {
-            document.querySelector('#footer ul').innerHTML = document.querySelector('#footer ul').innerHTML + '<li><a href="javascript:tC.privacyCenter.showPrivacyCenter();">Cookies</li>';
+            document.querySelector('#footer ul').innerHTML = document.querySelector('#footer ul').innerHTML + '<li><a href="javascript:tC.privacyCenter.showPrivacyCenter();">Cookies</a></li>';
         }
     } catch (e) {}
 })();

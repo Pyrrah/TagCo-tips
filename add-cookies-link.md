@@ -4,7 +4,7 @@
 
 2) Select "Déclencheur(s)" to "DOM ready", and on the dropdownn "Catégorie de Privacy", select "Ne pas inclure dans la privacy".
 
-3) Depending on the website, you must adapt the code on lines 21 to 22.
+3) Depending on the website, you must adapt the code in the "try" brackets.
 In this situation, we will add at the end of the list `<ul id="footer">` an entry `<li>` with the hyperlink "Cookies". Easy ?
 
 3) Put the code and save :

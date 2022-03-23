@@ -1,5 +1,5 @@
 # TagCo Tips
-Somes tips for the CMP TagCommander.
+Somes tips for the TMS TagCommander.
 
 1) [Reload container](reload-container.md)
 *When a user give her consent, we need to reload the container to load scripts (Google Analytics, etc.).*

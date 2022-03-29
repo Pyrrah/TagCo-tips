@@ -1,6 +1,6 @@
 # Add Cookies link
 
-## Case 1 : Cookie link don't exist (but footer links <ul> exists :smile:)
+## Case 1 : Cookie link don't exist (but footer links `<ul>` exists :smile:)
 
 1) To add a cookie link on footer of a website, create a tag "Custom" with name "TC - Add cookies link".
 

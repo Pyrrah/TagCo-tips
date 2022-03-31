@@ -11,7 +11,6 @@
         /***************************************************************************
        * Return TCPID w/ the command given in the console:
        * window.alert(tcpid)
-       * @author: Pierre-Yves DICK "Pyrrah"
        */
       (function(){
         try {

@@ -29,6 +29,33 @@ In this situation, we will add at the end of the list `<ul id="footer">` an entr
 </script>
 ```
 
+Alternative (same idea, more lines of code). Don't forget to replace document.querySelector :
+```js
+<script>
+  /***************************************************************************
+ * Add entry "Cookies" on bottom
+ * NB: This method allows display to adblocker users
+ */
+(function() {
+    try {
+        if(document.querySelector('a#cookieLink') === null) {
+			var aText = document.createTextNode("Cookies");
+			var a = document.createElement('a');
+			a.appendChild(aText);
+			a.setAttribute("id", "cookieLink");
+			a.setAttribute('href','#'+'#');
+			a.addEventListener('click', function(event){
+				tC.privacyCenter.showPrivacyCenter();
+			});
+			var li = document.createElement('li');
+			li.appendChild(a);
+			document.querySelector('#block-menu-block-9 > div > ul.menu.nav').appendChild(li);
+        }
+    } catch (e) {}
+})();
+</script>
+```
+
 ## Case 2 : Footer link exist
 
 Your service provider has created a bad hyperlink for cookies. Ouch.

@@ -15,3 +15,6 @@ Somes tips for the TMS TagCommander.
 
 5) [Detect user device](detect-user-device.md)
 *How to create an easy display constraint in five minutes ?*
+
+6) [Consent management for videos](consent-management-video.md)
+*Manage consent for your videos.*

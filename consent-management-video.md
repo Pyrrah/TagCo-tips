@@ -3,8 +3,7 @@
 To manage consent on your video players (ex: Youtube, Vimeo, etc.), I recommend a simple solution to set up.
 This solution will allow you to display a message instead of the player, if the user has not given his consent.
 
-NB: In TrustCommander, **I recommend using [vendors](https://community.commandersact.com/trustcommander/user-guides/categories-and-tags/manage-vendors#vendors)**.
-This will make it easier to manage consents. Contact support for more setup information.
+NB: In this case, **I recommend using the [vendors](https://community.commandersact.com/trustcommander/user-guides/categories-and-tags/manage-vendors#vendors)** in TrustCommander. This will make it easier to manage consents if you use less or more services (Vimeo, etc). Contact support for more setup information.
 
 1) Create a "Features" category and a "Youtube" provider. Don't forget to associate the supplier with this category.
 Note the category and vendor IDs.

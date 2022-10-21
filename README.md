@@ -18,3 +18,6 @@ Somes tips for the TMS TagCommander.
 
 6) [Consent management for videos](consent-management-video.md)
 *Manage consent for your videos.*
+
+7) [Load a script JS with parameters](load-script-with-parameters.md)
+*Need to load a JS script with parameters (async load, defer, etc.)? Here is the solution.*
